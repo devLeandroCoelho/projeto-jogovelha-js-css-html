@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Jogo da Velha</title>
+</head>
+
+<body>
+  <div class="container">
+    <h1>Jogo da Velha</h1>
+    <div id="game-container">
+      <div id="game-board" class="board">
+        <!-- Celulas serão adicionadas via Javascript -->
+      </div>
+      <div id="score-container">
+        <div class="score">
+          <p id="player-x-score">Jogador X</p>
+          <span id="score-x">0</span>
+        </div>
+        <div class="score">
+          <p id="player-o-score">Jogador O</p>
+          <span id="score-o">0</span>
+        </div>
+        <button id="reset-score-btn">Zerar Placar</button>
+      </div>
+    </div>
+    <p id="status">Vez do Jogador X</p>
+    <button id="restart-btn" style="display: none;">Proxima Partida</button>
+  </div>
+
+  <footer>
+    <p>Desenvolvido por Leandro Prazeres Coelho - <a href="https://https://github.com/devLeandroCoelho" target="_blank">devleandrocoelho</a></p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
