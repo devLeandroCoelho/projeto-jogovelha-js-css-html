@@ -2,6 +2,7 @@
 para este projeto utilizei, Javascript, CSS e HTML.
 
 ESTRUTURA DE PASTAS:
+
 ./index.html
 ./styles.css
 ./script.js
